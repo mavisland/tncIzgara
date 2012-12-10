@@ -39,7 +39,8 @@ h1 code { font-family: "Monaco", mono; }
 .izgara_20,
 .izgara_30,
 .izgara_31,
-.izgara_32 {
+.izgara_32,
+.izgara_40 {
 	display: inline-block;
 	padding: 0 10px;
 }
@@ -48,7 +49,8 @@ h1 code { font-family: "Monaco", mono; }
 .izgara_20 .bolum,
 .izgara_30 .bolum,
 .izgara_31 .bolum,
-.izgara_32 .bolum {
+.izgara_32 .bolum,
+.izgara_40 .bolum {
 	background: rgba(255,255,255,0.5);
 	border-radius: 5px;
 	padding: 0 5px;
@@ -71,3 +73,7 @@ h1 code { font-family: "Monaco", mono; }
 .izgara_32 .bolum { width: 614px; }
 .izgara_32 div[class="bolum"]:first-child { margin: 10px 0 10px 0; }
 .izgara_32 div[class="bolum"]:last-child  { margin: 10px 0 10px 10px; width: 296px; }
+/**************************************************************/
+.izgara_40 .bolum { margin: 10px 10px 10px 0; width: 217px; }
+.izgara_40 div[class="bolum"]:first-child { margin: 10px 10px 10px 0; }
+.izgara_40 div[class="bolum"]:last-child  { margin: 10px 0 10px 0; }
